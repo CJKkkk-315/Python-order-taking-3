@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block title %}
+Student Info
+{% endblock %}
+
+<!-- -------------------------------------------------------------------- -->
+
+{% block css %}
+
+{% endblock %}
+
+<!-- -------------------------------------------------------------------- -->
+
+{% block content%}
+<div class="container">
+    <!-- student code start -->
+    <h1>id: {{student.uid}}</h1>
+    <h1>username: {{student.username}}</h1>
+    <h1>password: {{student.password}}</h1>
+    <h1>email: {{student.email}}</h1>
+    <br/>
+    <br/>
+    <!-- student code end -->
+</div>
+{% endblock%}
+
+<!-- -------------------------------------------------------------------- -->
+
+{% block js %}
+
+{% endblock %}
